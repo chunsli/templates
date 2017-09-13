@@ -1,0 +1,65 @@
+﻿<html>
+	<head>
+    <style>
+      @font-face {        font-family: chinese;        src: url(https://s3-ap-southeast-1.amazonaws.com/b8-dev/fonts/fongching_GBK.ttf) format("truetype");      }      @font-face {        font-family: english;        src: url(https://s3-ap-southeast-1.amazonaws.com/b8-dev/fonts/sanchezregular.otf) format("opentype");        /* this specifies english characters and symbols, should be ok to omit */        unicode-range: U+21-7E;      }      html {        font-family: english, chinese;      }      #main-wrapper {        text-align: center;        width: 790px;        border: black solid 3px;        margin-top: 20px;        padding: 20px;      }      #header-wrapper {        margin: auto;        padding-top: 10px;        padding-bottom: -15px;        color: #6da9dd;      }      #header-wrapper>div, #header-wrapper img{        display: inline-block;        vertical-align: middle;        margin:0px 20px;      }      #eng-title {        font-size: 3.0em;        margin-bottom: 10px;      }      #eng-title sup {        font-size: 0.2em;      }      #chi-title {        line-height: 38px;        font-size: 1.5em;      }            #main-image {        height: 600px;      }      #main-image img {        height: 600px;      }      #icons table {        color: #6a757b;        margin: 10px auto;        font-weight: bold;      }      #icons td {        text-align: center;        padding: 5px 60px;      }      #desc {        padding: 5px;        background: #e9f2fa;      }      #desc table {        font-family: chinese;        padding: 0px 30px;        width: 100%;        background-color: #e9f2fa;        border: 2px dashed #d0e3f4;        color: #6da9dd;        font-size: 1.2em;      }      #desc td {        margin: 0px 30px;        padding: 10px 150px;        border-top: 3px solid white;      }      #desc tr:first-child td {        border: 0px;      }
+    </style>
+	</head>
+  <body>
+    <div id="main-wrapper">
+      <div id="desc">
+        <table>
+          <tr>
+            <td>商品名：新生宝宝系列1件式包脚连体衣</td>
+          </tr>
+          <tr>
+            <td>面料：100%全棉</td>
+          </tr>
+          <tr>
+            <td>尺码：NB 3M 6M 9M</td>
+          </tr>
+          <tr>
+            <td>建议零售价：139元</td>
+          </tr>
+        </table>
+      </div>
+      <div id="header-wrapper">
+        <div id="title-wrapper">
+          <div id="eng-title">
+            little baby basics<sup>TM</sup>
+          </div>
+          <div id="chi-title">
+            新生寶寶系列
+            <br />三角连体衣
+          </div>
+        </div>
+      </div>
+      <div id="content-wrapper">
+        <div id="main-image">
+          <img src="https://b8-dev.s3-ap-southeast-1.amazonaws.com/128958497059523927/upload-imgs/126H078.png" alt="" />
+        </div>
+        <div id="desc-wrapper">
+          <div id="icons">
+            <table>
+              <tr>
+                <td>
+                  <img src="https://b8-dev.s3-ap-southeast-1.amazonaws.com/128958497059523927/upload-imgs/icon-1.png" />
+                </td>
+                <td>
+                  <img src="https://b8-dev.s3-ap-southeast-1.amazonaws.com/128958497059523927/upload-imgs/icon-2.png" />
+                </td>
+                <td>
+                  <img src="https://b8-dev.s3-ap-southeast-1.amazonaws.com/128958497059523927/upload-imgs/icon-3.png" />
+                </td>
+              </tr>
+              <tr>
+                <td>全棉面料<br />柔软舒适</td>
+                <td>包脚设计<br />贴心呵护</td>
+                <td>田园印花<br />清新可爱</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
